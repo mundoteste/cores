@@ -3,13 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
 :root{
-    --cor0:#c5ebd6;
-    --cor1:#83e1ad;
-    --cor2:#3ddc84;
-    --cor3:#2fa866;
-    --cor4:#1a5c37;
-    --cor5:#063d1e;
-
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:  'Yesteryear', cursive;
 
      }
@@ -17,6 +11,10 @@
      *{
         margin: 0px;
         padding: 0px;
+    }
+
+    body {
+        background-color: #272727;
     }
 
     header{
@@ -52,6 +50,7 @@
         background-color: #272727;
         padding: 12px;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.178);
+        font-family: var(--fonte-padrao);
     }
     
     nav > a{
@@ -71,6 +70,7 @@
     }
     main {
         background-color: #272727;
+        font-family: var(--fonte-padrao);
     }
 
     main h2 {
@@ -81,18 +81,27 @@
 
 
     main p{
-        margin: 15px 0px ;
+        margin: 15px 20px ;
         text-align:justify ;
         text-indent: 30px;
         font-size: 1em;
         line-height: 2em;
+        
     }
 
+    h3 {
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.842);
+    }
+    
     article{
         margin-bottom: 30px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822) ;
     }
-
+    
     article.roxo {
         padding: 15px;
         height: 200px;
@@ -100,7 +109,7 @@
         background-image: url(../imagens/paisagem-roxo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-
+        
     }
     
     article.vermelho {
@@ -110,6 +119,17 @@
         background-image: url(../imagens/paisagem-vermelho.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        
+    }
+
+    article.marrom {
+        padding: 15px;
+        height: 200px;
+        background-color: white;
+        background-image: url(../imagens/paisagem-marrom.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
 
     }
     article.azul {
@@ -141,6 +161,27 @@
         background-size: cover;
 
     }
+
+    article.laranja {
+        padding: 15px;
+        height: 200px;
+        background-color: white;
+        background-image: url(../imagens/paisagem-laranja.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    article.rosa {
+        padding: 15px;
+        height: 200px;
+        background-color: white;
+        background-image: url(../imagens/paisagem-rosa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
 
     div {
         display: inline-block;
@@ -178,3 +219,24 @@
     div.amarelo{
         background-color: yellow;
     }
+
+    div.marrom {
+        background-color: #4d3426;
+    }
+
+    div.laranja {
+        background-color: rgb(255, 123, 0);
+    }
+
+    div.rosa {
+        background-color: #FF00FF;
+    }
+
+    footer {
+        background-color: #504f4f;
+        text-align: center;
+        color: white;
+        font-size: bold;
+        padding: 10px 0px;
+    }
+
