@@ -1,12 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Feliz Aniversário</title>
+    <link rel="shortcut icon" href="imagens/bolo.png" type="image/x-icon">
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+
+@font-face {
+    font-family: 'festa';
+    src: url(fontes/October\ Twilight.ttf) format('truetype');
+}
+
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        :root{
+    --cor0:#CC8A64;
+    --cor1:#80543B;
+    --cor2:#80563E;
+    --cor3:#4D3426;
+    --cor4:#332319;
+    --cor5:#cfb09d;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Engagement', cursive;
+
+    --fonte-festa:'festa', cursive;
+    }
+
+    body {
+        background-color: var(--cor5);
+    }
+
+    h1{
+        font-family: var(--fonte-destaque);
+        background-color: var(--cor4);
+        color: var(--cor0);
+        text-align: center;
+        font-size: 4em;
+        padding: 10px 0px;
+    }
+
+    h2 {
+        font-family: var(--fonte-festa);
+        text-align: center;
+        font-size: 3em;
+        background-color: var(--cor3);
+        color: var(--cor0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    article#caixa {
+        background-color: white;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    article > p {
+        padding: 0px 30px;
+        padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 2em;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    }
+
+    ul{
+        padding-left: 50px;
+        padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 2em;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    font-weight: bold;
+       }
+
+    section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
+}
+
+section.normal {
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.imagem {
+    background-color: rgb( 51 ,51 , 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-repeat: no-repeat;
+       }
+
+section.imagem > p {
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url(imagens/sarah-img01.jpg);
+    
+
+}
+
+section#img02 {
+    background-image: url(imagens/sarah-img02.jpg);
+    background-position: center center;
+    
+
+}
+    div.video{
+    background-color: var(--cor3);
+    margin: 0px 0px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+    
+    
+    }
+
+    div.video > iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    }
+    </style>
+
 </head>
+
 <body>
+
+    <h1>Cor Marrom</h1>
+    <article id="caixa">
+        <p>De acordo com os dados analizados pelos Cientistas de Boston, os pacientes que tinham o marrom como sua cor preferida, apresentavam características um pouco duvidosas ao ponto de até maltratar de seus amados bichinhos, que inclusivamente na maioria dos casos eram cachorros da raça Buldogue Francês</p>
+
+        <p>Por outro lado os amantes de marrom também possuem um lado mais carismatico. </p>
+
+        <p>Um fato muito preciso é que os amantes de marrom possuem essas tais características:</p>
+        <ul>
+            <li>Tem o signo de Peixes</li>
+            <li>Tem o nome "Sarah"</li>
+            <li>Faz Aniversário no dia 24 de fev</li>
+        </ul>
+        <p style="font-size: 2em;">Espere um pouco...</p>
+
+        <p>Você acabou de completar mais um ano de vida!!!
+            Então...
+        </p>
+    </article>
+    
+    <article>
+        
+        <h2>Feliz Aniversário!</h2>
+        <p>Você completou mais um ano de vida!!
+        </p>
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/8xhbswTbHck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <p>Quem diria que essa Sarah tão pequena mudaria tanto nesses anos.</p>
+        <p>Aquela Sarinha que chegava chutando eu sem nenhum motivo, agora finalmente se "aquietou", e virou uma moça já.  </p>
+        
+            </article>
+        
+        <section class="imagem" id="img01">
+            <p style="-moz-box-align: end;">
+                Parabéns Sarinha <br>
+                Sei que já passou do dia 24 <br>
+                Mas mesmo assim não quero <br>
+                deixar de te desejar um <br>
+                Feliz Aniversário
+            </p>
+        </section>
+
+        
+    <section class="normal">
+        <p>
+            Desejo que seja <br>
+            e esteja feliz. <br>
+            Que tenha muita e muita sorte <br>
+            A qual na realidade <br>
+            é única coisa que de verdade <br>
+            nunca é demais.
+        </p> 
+    </section>
+
+    <section class="imagem" id="img02">
+        <p style="-moz-box-align: end;">
+            Parabéns Sarinha <br>
+            Sei que já passou do dia 24 <br>
+            Mas mesmo assim não quero <br>
+            deixar de te desejar um <br>
+            Feliz Aniversário
+        </p>
+    </section>
+
+    
+
+            
+
+
+
+
+
+
+        
+
     
 </body>
 </html>
